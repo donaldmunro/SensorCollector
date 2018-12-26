@@ -1,0 +1,27 @@
+<resources>
+   <string name="app_name">SensorCollector</string>
+   <string-array name="sensors_array">
+      <item>Gravity</item>
+      <item>Linear Accelerometer</item>
+      <item>Accelerometer</item>
+      <item>Raw Accelerometer</item>
+      <item>Gyroscope</item>
+      <item>Raw Gyroscope</item>
+      <item>Magnetic</item>
+      <item>Raw Magnetic</item>
+   </string-array>
+   <string name="format_matlab">MATLAB/Octave</string>
+   <string name="format_python">CSV (Python numpy)</string>
+   <string name="start_ndk">Start (NDK)</string>
+   <string name="stop">Stop</string>
+   <string-array name="format_array">
+      <item>@string/format_python</item>
+       <item>@string/format_matlab</item>
+   </string-array>
+   <!--<string-array name="format_array">-->
+      <!--<item>format_matlab</item>-->
+      <!--<item>format_python</item>-->
+   <!--</string-array>-->
+
+
+</resources>
